@@ -14,7 +14,7 @@ const client = new Client({
 // ============================================================
 //  CONFIGURE THESE VALUES
 // ============================================================
-const BOT_TOKEN         = 'YOUR_BOT_TOKEN_HERE';
+const BOT_TOKEN = process.env.BOT_TOKEN;
 const CLIENT_ID         = '1513757486056865792';
 const INVITE_CHANNEL_ID = '1513776126525181962';
 const VIP_ROLE_ID       = '1484619172381200505';
