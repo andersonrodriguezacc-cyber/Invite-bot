@@ -1,7 +1,10 @@
 {
-  "name": "whitelist-bot",
+  "name": "invitebot",
   "version": "1.0.0",
-  "main": "bot.js",
+  "main": "invitebot.js",
+  "scripts": {
+    "start": "node invitebot.js"
+  },
   "dependencies": {
     "discord.js": "^14.0.0"
   }
